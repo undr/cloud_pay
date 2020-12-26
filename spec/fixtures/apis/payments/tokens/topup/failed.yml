@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/tokens/topup'
+  :body: '{"Token":"a4e67841-abb0-42de-a364-d1d8f9f4b3c0","Amount":1,"AccountId":"user@example.com","Currency":"RUB"}'
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

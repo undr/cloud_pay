@@ -1,0 +1,43 @@
+---
+:request:
+  :url: '/payments/tokens/charge'
+  :body: '{"Amount":10,"Currency":"RUB","InvoiceId":"1234567","Description":"Order №1234567 in shop example.com","AccountId":"user_x","Token":"a4e67841-abb0-42de-a364-d1d8f9f4b3c0"}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "TransactionId": 504,
+        "Amount": 10.00000,
+        "Currency": "RUB",
+        "CurrencyCode": 0,
+        "InvoiceId": "1234567",
+        "AccountId": "user_x",
+        "Email": null,
+        "Description": "Order №1234567 in shop example.com",
+        "JsonData": null,
+        "CreatedDate": "/Date(1401718880000)/",
+        "CreatedDateIso": "2014-08-09T11:49:41",
+        "TestMode": true,
+        "IpAddress": "195.91.194.13",
+        "IpCountry": "RU",
+        "IpCity": "Ufa",
+        "IpRegion": "Республика Башкортостан",
+        "IpDistrict": "Приволжский федеральный округ",
+        "IpLatitude": 54.7355,
+        "IpLongitude": 55.991982,
+        "CardFirstSix": "411111",
+        "CardLastFour": "1111",
+        "CardType": "Visa",
+        "CardTypeCode": 0,
+        "Issuer": "Sberbank of Russia",
+        "IssuerBankCountry": "RU",
+        "Status": "Declined",
+        "StatusCode": 5,
+        "Reason": "InsufficientFunds",
+        "ReasonCode": 5051,
+        "CardHolderMessage": "Недостаточно средств на карте",
+        "Name": "CARDHOLDER NAME"
+      },
+      "Success": false,
+      "Message": null
+    }

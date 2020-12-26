@@ -1,0 +1,17 @@
+---
+:request:
+  :url: '/site/notifications/pay/get'
+  :body: ''
+:response:
+  :body: >
+    {
+      "Model":{
+        "IsEnabled": true,
+        "Address": "http://example.com",
+        "HttpMethod": "GET",
+        "Encoding": "UTF8",
+        "Format": "CloudPayments"
+      },
+      "Success":true,
+      "Message": null
+    }

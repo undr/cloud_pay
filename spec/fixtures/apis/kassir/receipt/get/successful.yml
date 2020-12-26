@@ -1,0 +1,58 @@
+---
+:request:
+  :url: '/kkt/receipt/get'
+  :body: '{"Id":"Nr9eTaj"}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "Email": "user@example.com",
+        "Phone": null,
+        "Items": [{
+          "Label": "Product №1",
+          "Price": 100,
+          "Quantity": 1,
+          "Amount": 100,
+          "Department": null,
+          "Vat": 0,
+          "EAN13": null,
+          "AgentSign": null,
+          "Method": 6,
+          "Object": 3,
+          "MeasurementUnit": "шт",
+          "Code": "1322",
+          "AgentData": null,
+          "PurveyorData": null
+        }],
+        "TaxationSystem": 2,
+        "Amounts": null,
+        "IsBso": false,
+        "AdditionalData": {
+          "Id": "Nr9eTaj",
+          "AccountId": "user@example.com",
+          "Amount": 1150,
+          "CalculationPlace": "www.my.ru",
+          "CashierName": "test",
+          "DateTime": "2018-11-14T16:19:33",
+          "DeviceNumber": "00000000000000000001",
+          "DocumentNumber": "1323",
+          "FiscalNumber": "9999078900005430",
+          "FiscalSign": "13223",
+          "InvoiceId": "1322223",
+          "Ofd": "Первый ОФД",
+          "OfdReceiptUrl": "http://url.com/adress",
+          "OrganizationInn": "7708806062",
+          "QrCodeUrl": "https://qr.cloudpayments.ru/receipt?q=t%3d20181205T185000%26s%3d99.00%26fn%3d9999078900005430%26i%3d157347%26fp%3d1016954666%26n%3d1",
+          "RegNumber": "322223",
+          "SenderEmail": "sender@email.com",
+          "SessionCheckNumber": "12223",
+          "SessionNumber": "1",
+          "SettlePlace": "117342, Москва, ул. Бутлерова, 17Б",
+          "TransactionId": 14442,
+          "Type": "Income"
+        }
+      },
+      "InnerResult": null,
+      "Success": true,
+      "Message": null
+    }

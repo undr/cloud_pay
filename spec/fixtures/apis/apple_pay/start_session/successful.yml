@@ -1,0 +1,20 @@
+---
+:request:
+  :url: '/applepay/startsession'
+  :body: '{"ValidationUrl":"https://apple-pay-gateway.apple.com/paymentservices/startSession"}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "EpochTimestamp": 1545111111153,
+        "ExpiresAt": 1545111111153,
+        "MerchantSessionIdentifier": "SSH6FE83F9B853E00F7BD17260001DCF910",
+        "Nonce": "d6358e06",
+        "MerchantIdentifier": "41B8000198128F7CC4295E03092BE5E287738FD77EC3238789846AC8EF73FCD8",
+        "DomainName": "demo.cloudpayments.ru",
+        "DisplayName": "demo.cloudpayments.ru",
+        "Signature": "308006092a864886f70d010702a0803080020101310f300d060"
+      },
+      "Success": true,
+      "Message": null
+    }

@@ -1,0 +1,26 @@
+---
+:request:
+  :url: '/kkt/state/get'
+  :body: '{"DeviceNumber":"00000000000000000001","FiscalNumber":"9999078900005430"}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "Inn":"7708806062",
+        "DeviceNumber": "00000000000000000001",
+        "FiscalNumber": "9999078900005430",
+        "RegNumber": "0000000004030311",
+        "Status": "Online",
+        "Fiscal": true,
+        "OfdName": "Первый ОФД",
+        "SettlePlace": "117342, Москва, ул. Бутлерова, 17Б",
+        "CalculationPlace": "www.my.ru",
+        "KkmModelName": "Терминал ФА",
+        "FiscalDateEnd": "2021-01-01T00:00:00.000+000",
+        "FirmwareVersion": "14.1.2",
+        "IsBso": false
+      },
+      "InnerResult": null,
+      "Success": true,
+      "Message": null
+    }

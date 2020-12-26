@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/subscriptions/create'
+  :body: '{"Token":"477BBA133C182267FE5F086924ABDC5DB71F77BFC27F01F2843F2CDC69D89F05","AccountId":"user@example.com","Description":"Monthly subscription on some service at example.com","Email":"user@example.com","Amount":1.02,"Currency":"RUB","RequireConfirmation":false,"StartDate":"2014-08-06T16:46:29.5377246Z","Interval":"Month","Period":1}'
+:response:
+  :body: '{"Success":false,"Message":null}'

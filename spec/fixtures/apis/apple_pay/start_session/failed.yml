@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/applepay/startsession'
+  :body: '{"ValidationUrl":"https://apple-pay-gateway.apple.com/paymentservices/startSession"}'
+:response:
+  :body: '{"Success":false,"Message":"Some error maessge"}'

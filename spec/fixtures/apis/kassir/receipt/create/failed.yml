@@ -1,0 +1,14 @@
+---
+:request:
+  :url: '/kkt/receipt'
+  :body: '{"Inn":"7708806062","InvoiceId":"1234567","AccountId":"user@example.com","Type":"Income","CustomerReceipt":{"Items":[{"Label":"Наименование товара 1","Price":100.0,"Quantity":1.0,"Amount":100.0,"Vat":0,"Method":0,"Object":0,"MeasurementUnit":"шт"}],"CalculationPlace":"www.my.ru","TaxationSystem":0,"Email":"user@example.com","Phone":"","CustomerInfo":"","CustomerInn":"7708806063","IsBso":false,"AgentSign":null,"Amounts":{"Electronic":1300.0,"AdvancePayment":0.0,"Credit":0.0,"Provision":0.0}}}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "ErrorCode": -1
+      },
+      "InnerResult": null,
+      "Success": false,
+      "Message": "Компания с ИНН 7777777777 не найдена"
+    }

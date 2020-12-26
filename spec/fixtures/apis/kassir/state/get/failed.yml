@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/kkt/state/get'
+  :body: '{"DeviceNumber":"00000000000000000001","FiscalNumber":"9999078900005430"}'
+:response:
+  :body: '{"Success":false,"Message":"Error message"}'

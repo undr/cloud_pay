@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/void'
+  :body: '{"TransactionId":585020480}'
+:response:
+  :body: '{"Success":true,"Message":null}'

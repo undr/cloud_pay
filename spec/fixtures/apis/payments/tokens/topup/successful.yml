@@ -1,0 +1,58 @@
+---
+:request:
+  :url: '/payments/tokens/topup'
+  :body: '{"Token":"a4e67841-abb0-42de-a364-d1d8f9f4b3c0","Amount":1,"AccountId":"user@example.com","Currency":"RUB"}'
+:response:
+  :body: >
+    {
+      "Model":{
+        "PublicId":"pk_b9b86395c99782f0d16386d83e5d8",
+        "TransactionId":100551,
+        "Amount":1,
+        "Currency":"RUB",
+        "PaymentAmount":1,
+        "PaymentCurrency":"RUB",
+        "AccountId":"user@example.com",
+        "Email":null,
+        "Description":null,
+        "JsonData":null,
+        "CreatedDate":"/Date(1517943890884)/",
+        "PayoutDate":"/Date(1517950800000)/",
+        "PayoutDateIso":"2018-02-07T00:00:00",
+        "PayoutAmount":1,
+        "CreatedDateIso":"2018-02-06T19:04:50",
+        "AuthDate":"/Date(1517943899268)/",
+        "AuthDateIso":"2018-02-06T19:04:59",
+        "ConfirmDate":"/Date(1517943899268)/",
+        "ConfirmDateIso":"2018-02-06T19:04:59",
+        "AuthCode":"031365",
+        "TestMode":false,
+        "Rrn":"568879820",
+        "OriginalTransactionId":null,
+        "IpAddress":"185.8.6.164",
+        "IpCountry":"RU",
+        "IpCity":"Москва",
+        "IpRegion":null,
+        "IpDistrict":"Москва",
+        "IpLatitude":55.75222,
+        "IpLongitude":37.61556,
+        "CardFirstSix":"411111",
+        "CardLastFour":"1111",
+        "CardExpDate":"12/22",
+        "CardType":"Visa",
+        "CardTypeCode":0,
+        "Status":"Completed",
+        "StatusCode":3,
+        "CultureName":"ru",
+        "Reason":"Approved",
+        "ReasonCode":0,
+        "CardHolderMessage":"Оплата успешно проведена",
+        "Type":2,
+        "Refunded":false,
+        "Name":"WQER",
+        "SubscriptionId":null,
+        "GatewayName":"Tinkoff Payout"
+      },
+      "Success":true,
+      "Message":null
+    }

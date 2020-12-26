@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/list'
+  :body: '{"Date":"2019-02-21","TimeZone":"MSK"}'
+:response:
+  :body: '{"Success":false,"Message":"Not found"}'

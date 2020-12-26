@@ -1,0 +1,17 @@
+---
+:request:
+  :url: '/payments/tokens/list'
+  :body: ''
+:response:
+  :body: >
+    {
+      "Model":[{
+        "Token": "tk_020a924486aa4df254331afa33f2a",
+        "AccountId": "user_x",
+        "CardMask": "4242 42****** 4242",
+        "ExpirationDateMonth": 12,
+        "ExpirationDateYear": 2020
+      }],
+      "Success":true,
+      "Message":null
+    }

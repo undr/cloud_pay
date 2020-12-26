@@ -1,0 +1,47 @@
+---
+:request:
+  :url: '/payments/cards/auth'
+  :body: '{"Amount":10,"Currency":"RUB","IpAddress":"127.0.0.1","Description":"Order №1234567 in shop example.com","AccountId":"user_x","Name":"CARDHOLDER NAME","CardCryptogramPacket":"01492500008719030128SMfLeYdKp5dSQVIiO5l6ZCJiPdel4uDjdFTTz1UnXY"}'
+:response:
+  :body: >
+    {
+      "Model": {
+        "TransactionId": 504,
+        "Amount": 10.00000,
+        "Currency": "RUB",
+        "CurrencyCode": 0,
+        "PaymentAmount": 10.00000,
+        "PaymentCurrency": "RUB",
+        "PaymentCurrencyCode": 0,
+        "InvoiceId": "1234567",
+        "AccountId": "user_x",
+        "Email": null,
+        "Description": "Order №1234567 in shop example.com",
+        "JsonData": null,
+        "CreatedDate": "\/Date(1401718880000)\/",
+        "CreatedDateIso":"2014-08-09T11:49:41",
+        "TestMode": true,
+        "IpAddress": "195.91.194.13",
+        "IpCountry": "RU",
+        "IpCity": "Ufa",
+        "IpRegion": "Республика Башкортостан",
+        "IpDistrict": "Приволжский федеральный округ",
+        "IpLatitude": 54.7355,
+        "IpLongitude": 55.991982,
+        "CardFirstSix": "411111",
+        "CardLastFour": "1111",
+        "CardExpDate": "05/19",
+        "CardType": "Visa",
+        "CardTypeCode": 0,
+        "Issuer": "Sberbank of Russia",
+        "IssuerBankCountry": "RU",
+        "Status": "Declined",
+        "StatusCode": 5,
+        "Reason": "InsufficientFunds",
+        "ReasonCode": 5051, //rejection code
+        "CardHolderMessage":"Not enough funds on the card",
+        "Name": "CARDHOLDER NAME"
+      },
+      "Success": false,
+      "Message": null
+    }

@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/cards/charge'
+  :body: '{"Amount":10,"Currency":"RUB","IpAddress":"127.0.0.1","Description":"Order №1234567 in shop example.com","AccountId":"user_x","Name":"CARDHOLDER NAME","CardCryptogramPacket":"01492500008719030128SMfLeYdKp5dSQVIiO5l6ZCJiPdel4uDjdFTTz1UnXY"}'
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

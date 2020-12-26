@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/kkt/fiscalize'
+  :body: '{"Inn":"7708806062","DeviceNumber":"00000000000000000001","FiscalNumber":"9999078900005430","RegNumber":"0000000004030311","Url":"www.cloudpayments.ru","Ofd":"PeterService","TaxationSystem":[0],"MerchantEmail":"my@mail.ru","MerchantPhone":"899999999","IsBso":false}'
+:response:
+  :body: '{"Success":true,"Message":"Fiscal data queued"}'

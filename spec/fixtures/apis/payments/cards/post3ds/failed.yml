@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/cards/post3ds'
+  :body: '{"PaRes":"eJxVUdtugkAQ","TransactionId":12345}'
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

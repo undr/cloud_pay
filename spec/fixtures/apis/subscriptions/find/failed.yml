@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/subscriptions/find'
+  :body: '{"AccountId":"user@example.com"}'
+:response:
+  :body: '{"Success":false,"Message":null}'

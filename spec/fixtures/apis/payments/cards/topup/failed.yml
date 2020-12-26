@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/cards/topup'
+  :body: '{"Name":"CARDHOLDER NAME","CardCryptogramPacket":"01492500008719030128SMfLeYdKp5dSQVIiO5l6ZCJiPdel4uDjdFTTz1UnXY","Amount":1,"AccountId":"user@example.com","Currency":"RUB","InvoiceId":"1234567"}'
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

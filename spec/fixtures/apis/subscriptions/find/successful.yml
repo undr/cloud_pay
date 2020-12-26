@@ -1,0 +1,34 @@
+---
+:request:
+  :url: '/subscriptions/find'
+  :body: '{"AccountId":"user@example.com"}'
+:response:
+  :body: >
+    {
+      "Model":[{
+        "Id":"sc_8cf8a9338fb8ebf7202b08d09c938",
+        "AccountId":"user@example.com",
+        "Description":"Monthly subscription on some service at example.com",
+        "Email":"user@example.com",
+        "Amount":1.02,
+        "CurrencyCode":0,
+        "Currency":"RUB",
+        "RequireConfirmation":false,
+        "StartDate":"\/Date(1407343589537)\/",
+        "StartDateIso":"2014-08-09T11:49:41",
+        "IntervalCode":1,
+        "Interval":"Month",
+        "Period":1,
+        "MaxPeriods":null,
+        "StatusCode":0,
+        "Status":"Active",
+        "SuccessfulTransactionsNumber":0,
+        "FailedTransactionsNumber":0,
+        "LastTransactionDate":null,
+        "LastTransactionDateIso":null,
+        "NextTransactionDate":"\/Date(1407343589537)\/",
+        "NextTransactionDateIso":"2014-08-09T11:49:41"
+      }],
+      "Success":true,
+      "Message": null
+    }

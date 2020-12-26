@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/subscriptions/get'
+  :body: '{"Id":"sc_8cf8a9338fb8ebf7202b08d09c938"}'
+:response:
+  :body: '{"Success":false,"Message":null}'

@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/orders/create'
+  :body: '{"Amount":10.0,"Currency":"RUB","Description":"Payment at website example.com","Email":"client@test.local","RequireConfirmation":true,"SendEmail":false}'
+:response:
+  :body: '{"Success":false,"Message":null}'

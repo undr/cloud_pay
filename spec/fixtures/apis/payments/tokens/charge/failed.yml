@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/tokens/charge'
+  :body: '{"Amount":10,"Currency":"RUB","InvoiceId":"1234567","Description":"Order №1234567 in shop example.com","AccountId":"user_x","Token":"a4e67841-abb0-42de-a364-d1d8f9f4b3c0"}'
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

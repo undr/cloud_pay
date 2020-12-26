@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/tokens/list'
+  :body: ''
+:response:
+  :body: '{"Success": false,"Message": "Error message"}'

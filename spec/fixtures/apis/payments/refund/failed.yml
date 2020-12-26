@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/payments/refund'
+  :body: '{"Amount":120,"TransactionId":585020480}'
+:response:
+  :body: '{"Success":false,"Message":"Error message"}'

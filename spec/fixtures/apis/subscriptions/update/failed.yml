@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/subscriptions/update'
+  :body: '{"Description":"Rate №5","Amount":1200,"Currency":"RUB","Id":"sc_8cf8a9338fb8ebf7202b08d09c938"}'
+:response:
+  :body: '{"Success":false,"Message":null}'

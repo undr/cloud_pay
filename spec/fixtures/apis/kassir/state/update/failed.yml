@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/kkt/state'
+  :body: '{"Inn":"7708806062","DeviceNumber":"00000000000000000001","FiscalNumber":"9999078900005430","OnMaintenance":true}'
+:response:
+  :body: '{"Success":false,"Message":"Error message"}'

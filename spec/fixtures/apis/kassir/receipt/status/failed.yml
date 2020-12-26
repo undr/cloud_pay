@@ -1,0 +1,6 @@
+---
+:request:
+  :url: '/kkt/receipt/status/get'
+  :body: '{"Id":"Nr9eTaj"}'
+:response:
+  :body: '{"Success":false,"Message":"Error message"}'
