@@ -17,7 +17,7 @@ module CloudPay
     def perform_request(path, params, options = {})
       idempotency_key = options[:idempotency_key]
 
-      connection.basic_auth(config.public_key, config.secret_key)
+      connection.request(:authorization, :basic, config.public_key, config.secret_key)
       response = connection.post(path, (params ? convert_to_json(params) : nil), headers(idempotency_key))
 
       Response.new(response.status, response.body, response.headers).tap do |response|
